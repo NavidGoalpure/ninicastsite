@@ -1,0 +1,391 @@
+/*
+	Theme Name: Pinbin
+Theme URI: http://hamyarwp.com/pinbin
+RTL-er: HAMYARWP
+RTL-er URI: http://hamyarwp.com/
+*/
+/* colour styles : reset
+-------------------------------------------------------------- */
+
+/* HTML5 display-role reset for older browsers */
+@font-face {
+	    font-family: 'VazirFont';
+	    src: url('fonts/Vazir-FD-WOL.eot');
+	    src: url('fonts/Vazir-FD-WOL.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Vazir-FD-WOL.woff') format('woff'),
+		url('fonts/Vazir-FD-WOL.ttf') format('truetype'),
+		url('fonts/WebYekan.svg#WebYekan') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	    unicode-range: U+0600–06FF;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, input, textarea,option{
+	  font-family: VazirFont !important;
+	 font-weight: normal;
+}
+
+p{
+	  font-family: VazirFont !important;
+}
+.blog-title,.comment-author-link {
+	font-family: VazirFont;
+	}
+
+#wrap {
+	padding:20px;
+	margin-left: auto;
+}
+
+
+/* Typohraphy
+--------------------------------------------------------------*/
+/* Fonts
+--------------------------------------------------------------*/
+.view-next a,.view-previous a{
+	font-size:17px;
+}
+/* Lists -bullet points
+--------------------------------------------------------------*/
+ul li {
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+ol {
+	margin-right: 25px;
+	margin-left: auto;
+}
+
+ol li {
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+ul,ol {
+	margin: 0 3em 1.5em 0;
+}
+
+ul {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+ul ul,ol ol,ul ol,ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+/* Text link style
+--------------------------------------------------------------*/
+
+/* Main Navigation
+--------------------------------------------------------------*/
+#main-nav-wrapper {
+	float: right;
+}
+
+.main-nav {
+	float: right;
+}
+
+.main-nav ul li {
+	float: right;
+}
+
+.main-nav ul li:hover ul {
+	right: 0px;
+	left: auto;
+}
+
+.main-nav ul li:hover ul li:hover ul {
+	right: 155px;
+	left: auto;
+}
+
+/* Logo
+--------------------------------------------------------------*/
+#logo img {
+	padding: 0 3% 0 0;
+	float: right;
+}
+
+/* Footer
+--------------------------------------------------------------*/
+#footer-area {
+	float: right;
+	padding-bottom:20px;
+}
+
+
+#footer-area .widget h3 {
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+#footer-area .widget ul {
+	margin-right: 0px;
+	margin-left: auto;
+}
+
+#footer-area .widget-copy {
+	float: right;
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+#searchsubmit,button,.comment-submit,input[type="submit"] {
+	background:#fff !important;
+	color:#444;
+	width:100%;
+}
+
+#searchsubmit:hover,.comment-submit:hover {
+	background: #eee !important;
+	color:#000;
+}
+
+/* Footer copyleft
+--------------------------------------------------------------*/
+#copyleft {
+	float: right;
+}
+
+/* Post and page style
+--------------------------------------------------------------*/
+
+.type-post,.type-page,.type-attachment,#post-area .post {
+	border-left: 1px solid #dbdbdb;
+	border-right: none;
+}
+
+.type-post,.type-page,.type-attachment {
+	margin-left: 10px;
+	float: none;
+    margin-right: auto;
+    margin: 0px auto;
+}
+
+.pinbin-category {
+	right: 0;
+	left: auto;
+}
+
+.pinbin-category p {
+	padding-right: 20px;
+	padding-left: 40px;
+}
+
+/* Post style on frontpage
+--------------------------------------------------------------*/
+#post-area .post {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+#post-area .post .pinbin-link a {
+	float: left;
+	margin-right: 245px;
+	margin-left: auto;
+}
+
+/* Single post navigation
+--------------------------------------------------------------*/
+.post-nav {
+	float: right;
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.post-next a,.post-prev a {
+	float: left;
+}
+
+.post-next a {
+	margin-right: 705px;
+	margin-left: auto;
+	font-size: 20px;
+}
+
+.post-prev a {
+	margin-right: -10px;
+	margin-left: auto;
+}
+
+.posttags {
+	float: left;
+}
+
+.view-next {
+	float: left;
+}
+
+.view-previous {
+	float: right;
+}
+
+/* Comments
+--------------------------------------------------------------*/
+
+.comments-area li {
+	float: right;
+}
+
+.comments-area {
+	margin-right: -10px;
+	margin-left: auto;
+}
+
+.comment {
+	margin-right: -15px;
+	margin-left: auto;
+}
+
+/* Other
+--------------------------------------------------------------*/
+
+.alignright {
+	float: right;
+	margin: 10px 0 20px 10px;
+}
+
+.alignleft {
+	float: left;
+}
+
+.wp-caption {
+	text-align: right;
+}
+
+.wp-caption-text {
+	text-align: right;
+}
+
+blockquote {
+	margin-right: 20px;
+	border-right: 1px dotted #999;
+	padding-right: 25px;
+	padding-left: 0;
+	margin-left: auto;
+	border-left: none;
+}
+
+/* Table
+--------------------------------------------------------------*/
+
+/* mobile styles
+-----------------------------------------------*/
+/* For devices with screen size lower than 480px */
+@media only screen and (max-width: 480px) {
+
+.alignleft {
+	float: left;
+}
+
+.wp-caption {
+	text-align: right;
+}
+
+.wp-caption-text {
+	text-align: right;
+}
+
+blockquote {
+	margin-right: 20px;
+	border-right: 1px dotted #999;
+	padding-right: 25px;
+	padding-left: 0;
+	margin-left: auto;
+	border-left: none;
+}
+
+/* Table
+--------------------------------------------------------------*/
+
+}
+
+/* Navigation */
+
+/* For devices with screen size lower than 767px */
+@media only screen and (max-width: 771px) {
+#main-nav-wrapper {
+    height: 42px;
+    display: inline;
+    float: none;
+}
+.main-nav select {
+    display: inline;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../images/mobile-menu-icon.png') no-repeat scroll left center #FFF;
+}
+.type-post, .type-page, .type-attachment {
+	width: 97%;
+}
+
+}
+@media only screen and (max-width: 790px) {
+#wrap {
+    margin-right: 2%;
+    margin-left: auto;
+}
+}
+
+
+
+/*_________________________________*/
+
+@media only screen and (max-width: 530px) {
+.type-post, .type-page, .type-attachment {
+ max-width: 100%;
+}
+#logo img, .pinbin-image img {
+	max-width: 100%;
+}
+.post-next a {
+    margin-right: 414px;
+}
+	
+}
+
+
+/*----------------------------------------------*/
+@media only screen and (max-width: 480px){
+ .type-page {
+ max-width: 93%;
+}
+.type-post .post-next a {
+	margin-right: 264px;
+	
+}
+.main-nav select {
+    width: 91%;
+}
+#logo{
+	text-align: center !important;
+}
+#logo img {
+    padding: 0 0 0 0;
+    float: none !important;
+}
+#post-area .post .pinbin-link a {
+   
+    margin-right: 264px;
+     
+}
+#wrap {
+	padding:1%;
+}
+.text-input, #s, input[type=text], input[type=password], textarea {
+	max-width:100%;
+}
+
+}
+@media only screen and (max-width: 530px){
+.post-next a {
+    margin-right: 414px;
+}
+
+ 
+ 
+
+

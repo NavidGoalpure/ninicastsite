@@ -1,0 +1,238 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="post-area" class="masonry" style="position: relative; height: 1597px;">
+    {% for count in behaviors%}
+    <!--###############post1#######################-->
+    {% if behaviors.count > 0 %}
+
+    <div id="post-141"
+         class="post-141 post type-post status-publish format-standard has-post-thumbnail hentry category-16 category-13 masonry-brick"
+         style="position: absolute; right: 0px; top: 0px;">
+        <div class="pinbin-image">
+            <a href="#">
+                <img width="300" height="300" src="{{behaviors.0.image.url}}"
+                     class="attachment-summary-image size-summary-image wp-post-image" alt="lego"
+                     srcset="{{behaviors.0.image.url}} 300w, {{behaviors.0.image.url}} 768w, {{behaviors.0.image.url}} 750w, {{behaviors.0.image.url}} 800w"
+                     sizes="(max-width: 300px) 100vw, 300px">
+            </a>
+        </div>
+        <div class="pinbin-category">
+            <p>
+                <a href="#" rel="category tag">{{behaviors.0.category}}</a>
+            </p>
+        </div>
+        <div class="pinbin-copy">
+            <h2>
+                <a class="front-link" href="#">{{behaviors.0.titr}}</a>
+            </h2>
+
+            <p>
+                {{behaviors.0.desc | truncatechars:300}}
+            </p>
+
+
+            <p class="pinbin-link">
+                <a href="{{behaviors.0.get_absolute_url}}">←</a>
+
+            </p>
+
+        </div>
+    </div>
+    {% endif %}
+
+    <!--###########post2###########################-->
+    {% if growths.count > 0 %}
+    <div id="post-138"
+         class="post-138 post type-post status-publish format-standard has-post-thumbnail hentry category-15 category-16 category-1 masonry-brick"
+         style="position: absolute; right: 311px; top: 0px;">
+
+        <div class="pinbin-image"><a href="#"><img width="300" height="300" src="{{growths.0.image.url}}"
+                                                   class="attachment-summary-image size-summary-image wp-post-image"
+                                                   alt="51826e646aab09.584391561-640x822"
+                                                   srcset="{{growths.0.image.url}} 300w, {{growths.0.image.url}} 640w"
+                                                   sizes="(max-width: 300px) 100vw, 300px"></a></div>
+        <div class="pinbin-category">
+            <p>
+                <a href="#" rel="category tag">{{growths.0.category}}</a>
+            </p>
+        </div>
+        <div class="pinbin-copy">
+            <h2>
+                <a class="front-link" href="#">{{growths.0.titr}}</a>
+            </h2>
+
+            <p>
+                {{growths.0.desc | truncatechars:350}}
+            </p>
+
+
+            <p class="pinbin-link">
+                <a href="#">←</a>
+
+            </p>
+
+        </div>
+    </div>
+    {% endif %}
+
+    <!--###########post3###########################-->
+    {% if healths.count > 0 %}
+    <div id="post-104"
+         class="post-104 post type-post status-publish format-standard has-post-thumbnail hentry category-15 category-16 category-13 masonry-brick"
+         style="position: absolute; right: 622px; top: 0px;">
+        <div class="pinbin-image"><a href="#"><img width="300" height="300" src="{{healths.0.image.url}}"
+                                                   class="attachment-summary-image size-summary-image wp-post-image"
+                                                   alt="dribbble1st"
+                                                   srcset="{{healths.0.image.url}} 300w, {{healths.0.image.url}} 768w, {{healths.0.image.url}} 750w, {{healths.0.image.url}} 800w"
+                                                   sizes="(max-width: 300px) 100vw, 300px"></a></div>
+        <div class="pinbin-category">
+            <p><a href="#" rel="category tag">{{healths.0.category}}</a>
+        </div>
+
+        <div class="pinbin-copy"><h2><a class="front-link" href="#">{{healths.0.titr}}</a></h2>
+
+            <p>
+                {{healths.0.desc | truncatechars:300}}
+            </p>
+
+
+            <p class="pinbin-link"><a href="#">←</a></p>
+        </div>
+    </div>
+    {% endif %}
+
+    <!--###########post4###########################-->
+    {% if newmoms.count > 0 %}
+
+    <div id="post-61"
+         class="post-61 post type-post status-publish format-standard has-post-thumbnail hentry category-14 category-15 masonry-brick"
+         style="position: absolute; right: 933px; top: 0px;">
+        <div class="pinbin-image"><a href="#"><img width="300" height="300" src="{{newmom.0.image.url}}"
+                                                   class="attachment-summary-image size-summary-image wp-post-image"
+                                                   alt="GALAXY-S-4-Product-Image-12"
+                                                   srcset="{{newmoms.0.image.url}} 227w, {{newmoms.0.image.url}} 768w, {{newmoms.0.image.url}} 776w, {{newmoms.0.image.url}} 300w, {{newmoms.0.image.url}} 750w, {{newmoms.0.image.url}} 1200w"
+                                                   sizes="(max-width: 300px) 100vw, 300px"></a></div>
+        <div class="pinbin-category">
+            <p><a href="#" rel="category tag">{{newmoms.0.category}}</a>
+        </div>
+
+        <div class="pinbin-copy"><h2><a class="front-link" href="#">{{newmoms.0.titr}}</a></h2>
+
+            <p>
+                {{newmoms.0.desc | truncatechars:350}}
+            </p>
+
+
+            <p class="pinbin-link"><a href="#">←</a></p>
+        </div>
+    </div>
+    {% endif %}
+    {%endfor %}
+    <!--###########post5###########################-->
+    <!--{% if behaviors.count > 1 %}-->
+    <!--<div id="post-37" class="post-37 post type-post status-publish format-standard has-post-thumbnail hentry category-14 category-15 category-16 masonry-brick" style="position: absolute; right: 0px; top: 501px;">-->
+    <!--<div class="pinbin-image">-->
+    <!--<a href="#">-->
+    <!--<img width="300" height="300" src="{{behaviors.0.image.url}}" class="attachment-summary-image size-summary-image wp-post-image" alt="lego" srcset="{{behaviors.1.image.url}} 300w, {{behaviors.1.image.url}} 768w, {{behaviors.1.image.url}} 750w, {{behaviors.1.image.url}} 800w" sizes="(max-width: 300px) 100vw, 300px">-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--<div class="pinbin-category">-->
+    <!--<p>-->
+    <!--<a href="#" rel="category tag">{{behaviors.1.category}}</a>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--<div class="pinbin-copy">-->
+    <!--<h2>-->
+    <!--<a class="front-link" href="#">{{behaviors.1.titr}}</a>-->
+    <!--</h2>-->
+
+    <!--<p>-->
+    <!--{{behaviors.1.desc | truncatechars:300}}-->
+    <!--</p>-->
+
+
+    <!--<p class="pinbin-link">-->
+    <!--<a href="#">←</a>-->
+
+    <!--</p>-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--{% endif %}-->
+
+    <!--&lt;!&ndash;###########post6###########################&ndash;&gt;-->
+    <!--{% if growths.count > 1 %}-->
+    <!--<div id="post-35" class="post-35 post type-post status-publish format-video has-post-thumbnail hentry category-14 category-15 category-16 category-13 post_format-post-format-video masonry-brick" style="position: absolute; right: 622px; top: 501px;">-->
+    <!--<div class="pinbin-image"><a href="#"><img width="300" height="300" src="{{growths.1.image.url}}" class="attachment-summary-image size-summary-image wp-post-image" alt="51826e646aab09.584391561-640x822" srcset="{{growths.1.image.url}} 300w, {{growths.1.image.url}} 640w" sizes="(max-width: 300px) 100vw, 300px"></a></div>-->
+    <!--<div class="pinbin-category">-->
+    <!--<p>-->
+    <!--<a href="#" rel="category tag">{{growths.1.category}}</a>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--<div class="pinbin-copy">-->
+    <!--<h2>-->
+    <!--<a class="front-link" href="#">{{growths.1.titr}}</a>-->
+    <!--</h2>-->
+
+    <!--<p>-->
+    <!--{{growths.1.desc | truncatechars:350}}-->
+    <!--</p>-->
+
+
+    <!--<p class="pinbin-link">-->
+    <!--<a href="#">←</a>-->
+
+    <!--</p>-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--{% endif %}-->
+
+    <!--&lt;!&ndash;###########post7###########################&ndash;&gt;-->
+    <!--{% if healths.count > 1 %}-->
+    <!--<div id="post-32" class="post-32 post type-post status-publish format-video has-post-thumbnail hentry category-15 category-16 tag-18 tag-17 post_format-post-format-video masonry-brick" style="position: absolute; right: 933px; top: 600px;">-->
+    <!--<div class="pinbin-image"><a href="#"><img width="300" height="300" src="{{healths.1.image.url}}" class="attachment-summary-image size-summary-image wp-post-image" alt="dribbble1st" srcset="{{healths.1.image.url}} 300w, {{healths.1.image.url}} 768w, {{healths.1.image.url}} 750w, {{healths.1.image.url}} 800w" sizes="(max-width: 300px) 100vw, 300px"></a></div>-->
+    <!--<div class="pinbin-category">-->
+    <!--<p><a href="#" rel="category tag">{{healths.1.category}}</a>-->
+    <!--</div>-->
+
+    <!--<div class="pinbin-copy"><h2><a class="front-link" href="#">{{healths.1.titr}}</a></h2>-->
+
+    <!--<p>-->
+    <!--{{healths.1.desc | truncatechars:300}}-->
+    <!--</p>-->
+
+
+    <!--<p class="pinbin-link"><a href="#">←</a></p>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--{% endif %}-->
+
+    <!--&lt;!&ndash;###########post8###########################&ndash;&gt;-->
+    <!--{% if newmoms.count > 1 %}-->
+    <!--<div id="post-30" class="post-30 post type-post status-publish format-video has-post-thumbnail hentry category-14 category-15 post_format-post-format-video masonry-brick" style="position: absolute; right: 311px; top: 661px;">-->
+    <!--<div class="pinbin-image"><a href="#"><img width="300" height="300" src="{{newmom.1.image.url}}" class="attachment-summary-image size-summary-image wp-post-image" alt="GALAXY-S-4-Product-Image-12" srcset="{{newmoms.1.image.url}} 227w, {{newmoms.1.image.url}} 768w, {{newmoms.1.image.url}} 776w, {{newmoms.1.image.url}} 300w, {{newmoms.1.image.url}} 750w, {{newmoms.1.image.url}} 1200w" sizes="(max-width: 300px) 100vw, 300px"></a></div>-->
+    <!--<div class="pinbin-category">-->
+    <!--<p><a href="#" rel="category tag">{{newmoms.1.category}}</a>-->
+    <!--</div>-->
+
+    <!--<div class="pinbin-copy"><h2><a class="front-link" href="#">{{newmoms.1.titr}}</a></h2>-->
+    <!--<p>-->
+    <!--{{newmoms.0.desc | truncatechars:350}}-->
+    <!--</p>-->
+
+
+    <!--<p class="pinbin-link"><a href="#">←</a></p>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--{% endif %}-->
+    <!------------------------------------------>
+</div>
+<nav id="nav-below" class="navigation" role="navigation">
+    <div class="view-previous"></div>
+    <div class="view-next"></div>
+</nav>
+
+{% endblock %}
