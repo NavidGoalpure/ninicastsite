@@ -10,10 +10,7 @@
         <img width="750" src="{{post.image.url}}" class="attachment-detail-image size-detail-image wp-post-image"
              alt="{{post.titr}}" title="{{post.titr}}">
     </div>
-    <div class="pinbin-category">
-        <p><a href="#" rel="category tag">{{post.category}}</a>
-        </p>
-    </div>
+
     {% if post.audio.url != null %}
     <audio controls="controls" style="width:100%; margin:-7px 0px" preload="none"><!--autoplay-->
         <source src="{{post.audio.url}}" type="audio/mpeg">
@@ -34,7 +31,7 @@
         </p>
 
         <div class="pagelink"></div>
-        <div class="posttags">گروه بندی: <a href="#" rel="tag"> {{post.category}}</a></div>
+        <div class="posttags">گروه بندی: <a href="{{catagoryCode}}" rel="tag"> {{catagoryName}}</a></div>
         <div class="clear"></div>
 
 

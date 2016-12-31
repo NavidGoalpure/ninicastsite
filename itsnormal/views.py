@@ -76,6 +76,10 @@ def showNormalPost(request, id=None):
     for item in items:
         if (int(item.id)==int(id)):
             idLocation=counter
+            catagoryName=item.categoryName
+            catagoryCode=item.categoryCode
+
+
         counter+=1
     if (idLocation==0):
         prevID = -1
@@ -93,12 +97,11 @@ def showNormalPost(request, id=None):
         'post': normalPost,
         'prevID': prevID,
         'nextID': nextID,
+        'catagoryName': catagoryName,
+        'catagoryCode': catagoryCode,
     }
 
     return render(request, 'post.html',context)
-
-from django.http import HttpResponse, Http404
-
 
 def hello(request):
     css="index.jpg"
