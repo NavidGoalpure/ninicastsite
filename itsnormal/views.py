@@ -5,18 +5,18 @@ from .models import itsNormalCategories
 
 def itsnormal(request):
 
-    behaviors= itsNormalPosts.objects.filter(categoryName__categoryID =1)
+    behaviors= itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID =1)
     maxnumber= len(behaviors)
 
-    growths= itsNormalPosts.objects.filter(categoryName__categoryID =2)
+    growths= itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID =2)
     if maxnumber<len(growths):
         maxnumber=len(growths)
 
-    healths= itsNormalPosts.objects.filter(categoryName__categoryID =3)
+    healths= itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID =3)
     if maxnumber<len(healths):
         maxnumber=len(healths)
 
-    newmoms= itsNormalPosts.objects.filter(categoryName__categoryID =4)
+    newmoms= itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID =4)
     if maxnumber<len(newmoms):
         maxnumber=len(newmoms)
     # make a dic with sum all of them
@@ -38,28 +38,28 @@ def itsnormal(request):
     return render(request,'itsnormal.html',context)
 
 def itsnormalBehaviors(request):
-    items = itsNormalPosts.objects.filter(categoryName__categoryID=1)
+    items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=1)
     context ={
         'items':items,
     }
     return render(request,'itsnormal.html',context)
 
 def itsnormalGrowths(request):
-    items = itsNormalPosts.objects.filter(categoryName__categoryID=2)
+    items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=2)
     context ={
         'items':items,
     }
     return render(request,'itsnormal.html',context)
 
 def itsnormalHealths(request):
-    items = itsNormalPosts.objects.filter(categoryName__categoryID=3)
+    items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=3)
     context ={
         'items':items,
     }
     return render(request,'itsnormal.html',context)
 
 def itsnormalNewmoms(request):
-    items = itsNormalPosts.objects.filter(categoryName__categoryID=4)
+    items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=4)
     context ={
         'items':items,
     }
@@ -71,7 +71,7 @@ def showNormalPost(request, id=None):
     normalPost = get_object_or_404(itsNormalPosts,id =id)
 
     # پیدا کردن آیدی پست قبلی و پست بعدی تا در دکمه های بک و نکست استفاده بشن
-    items = itsNormalPosts.objects.all()
+    items = itsNormalPosts.objects.filter(status=1)
     counter = 0
     for item in items:
         if (int(item.id)==int(id)):
@@ -92,7 +92,7 @@ def showNormalPost(request, id=None):
         nextID = -1
     else:
         nextID = int(items[idLocation + 1].id)
-# شیشیشبیشیبشیبشبیش
+
     context = {
         'post': normalPost,
         'prevID': prevID,

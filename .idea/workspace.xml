@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itsnormal/migrations/0009_auto_20170101_1329.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/models.py" afterPath="$PROJECT_DIR$/itsnormal/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/views.py" afterPath="$PROJECT_DIR$/itsnormal/views.py" />
     </list>
     <ignored path="ninicast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/itsnormal/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            <state relative-caret-position="1268">
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding>
                 <element signature="e#15#70#0" expanded="true" />
               </folding>
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -88,11 +87,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/itsnormal/views.py" />
         <option value="$PROJECT_DIR$/ninicast/templates/post.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/itsnormal.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
         <option value="$PROJECT_DIR$/itsnormal/models.py" />
+        <option value="$PROJECT_DIR$/itsnormal/views.py" />
       </list>
     </option>
   </component>
@@ -369,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483264199812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add ageRangeStart and ageRageEnd to intsnormal&#10;">
+      <created>1483264896432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483264896432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -409,7 +415,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="improve post page view with change position of catagory&#10;" />
     <MESSAGE value="improve post page view with change footer sequence&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve post page view with change footer sequence&#10;" />
+    <MESSAGE value="add ageRangeStart and ageRageEnd to intsnormal&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ageRangeStart and ageRageEnd to intsnormal&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -472,22 +479,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itsnormal/views.py">
+    <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#15#70#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
+    <entry file="file://$PROJECT_DIR$/itsnormal/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="1268">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
