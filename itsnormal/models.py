@@ -16,10 +16,15 @@ class itsNormalCategories(models.Model):
 class itsNormalPosts(models.Model):
     titr = models.CharField(max_length=100)
     desc = models.TextField()
+
+    ageRangeStart = models.SmallIntegerField(default=-1000)
+    ageRangeEnd = models.SmallIntegerField(default=0)
+
     categoryName = models.ForeignKey(itsNormalCategories,
                                      on_delete=models.CASCADE,
                                      )
     categoryCode = models.CharField(max_length=20,blank=True,editable=False)
+
     publication_date = models.DateTimeField(auto_now = True)
     image = models.ImageField(upload_to='images/itsnormal/',
                                   default='images/itsnormal/8.png')
