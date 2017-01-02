@@ -67,7 +67,6 @@ def itsnormalNewmoms(request):
 
 
 def showNormalPost(request, id=None):
-    #TODO : دکمه های بک و فوروارد کامل بشه
     normalPost = get_object_or_404(itsNormalPosts,id =id)
 
     # پیدا کردن آیدی پست قبلی و پست بعدی تا در دکمه های بک و نکست استفاده بشن
