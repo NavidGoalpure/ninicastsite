@@ -84,21 +84,21 @@ def itssafeHealths(request):
     }
     return render(request,'itssafe.html',context)
 
-def itssafeHealths(request):
+def itssafeBeauty(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=5)
     context ={
         'items':items,
     }
     return render(request,'itssafe.html',context)
 
-def itssafeBeauty(request):
+def itssafeSleep(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=6)
     context ={
         'items':items,
     }
     return render(request,'itssafe.html',context)
 
-def itssafeSleep(request):
+def itssafeHomeAndWork(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=7)
     context ={
         'items':items,
@@ -106,8 +106,8 @@ def itssafeSleep(request):
     return render(request,'itssafe.html',context)
 
 
-def showNormalPost(request, id=None):
-    normalPost = get_object_or_404(itssafePosts,id =id)
+def showSafePost(request, id=None):
+    safePost = get_object_or_404(itssafePosts,id =id)
 
     # پیدا کردن آیدی پست قبلی و پست بعدی تا در دکمه های بک و نکست استفاده بشن
     items = itssafePosts.objects.filter(status=1)
@@ -133,7 +133,7 @@ def showNormalPost(request, id=None):
         nextID = int(items[idLocation + 1].id)
 
     context = {
-        'post': normalPost,
+        'post': safePost,
         'prevID': prevID,
         'nextID': nextID,
         'catagoryName': catagoryName,

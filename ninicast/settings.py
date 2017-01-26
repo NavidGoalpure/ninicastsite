@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'template_debug',
-    'itsnormal.apps.PodcastsConfig',
+    'itsnormal.apps.ItsnormalConfig',
+    'itssafe.apps.ItssafeConfig',
 ]
 
 MIDDLEWARE = [
