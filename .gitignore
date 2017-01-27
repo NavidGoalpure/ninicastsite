@@ -11,4 +11,4 @@ lib64
 db.sqlite3
 ninicast/setting.py
 *.pyc
-.idea
+.idea/.
