@@ -30,7 +30,7 @@ class itssafePosts(models.Model):
                                   default='images/itssafe/8.png')
 
     audio = models.FileField(upload_to='audio/itssafe',
-                             null=True)
+                             null=True, blank=True)
     status = models.PositiveSmallIntegerField(default=1)
 
 

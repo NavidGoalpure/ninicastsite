@@ -25,7 +25,7 @@ SECRET_KEY = 'yp+#&-8^q9g*&hx#q_b%+b3v1l5y#v6ad3f3&jbaiicm_^_=!v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ninicast.ir', 'titikid.ir', '127.0.0.1']
 
 
 # Application definition

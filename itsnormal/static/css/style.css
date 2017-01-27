@@ -372,6 +372,7 @@ float:left;
   float: left;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 10px;
   background:#333;
 }
 #copyright p {

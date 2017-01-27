@@ -2,14 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itssafe/migrations/0001_initial.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0000.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0105.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0107.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0109.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0201.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0202.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0203.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0205.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0206.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0301.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0302.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0303.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0304.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0305.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0306.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0307.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0308.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0309.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0310.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0311.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0312.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0313.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0314.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0315.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0316.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0317.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0318.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0401.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0402.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0403.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0404.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0405.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0501.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0601.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0602.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0603.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0605.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0606.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/apps.py" afterPath="$PROJECT_DIR$/itsnormal/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/urls.py" afterPath="$PROJECT_DIR$/itsnormal/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/urls.py" afterPath="$PROJECT_DIR$/itssafe/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/views.py" afterPath="$PROJECT_DIR$/itssafe/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/models.py" afterPath="$PROJECT_DIR$/itsnormal/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/static/css/style.css" afterPath="$PROJECT_DIR$/itsnormal/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/models.py" afterPath="$PROJECT_DIR$/itssafe/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/settings.py" afterPath="$PROJECT_DIR$/ninicast/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/urls.py" afterPath="$PROJECT_DIR$/ninicast/urls.py" />
     </list>
     <ignored path="ninicast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +90,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itssafe/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="540">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -41,41 +99,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itssafe/views.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
-              <caret line="135" column="20" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#70#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py.sample" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ninicast/settings.py.sample">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="624">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itssafe/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -87,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itsnormal/urls.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="600">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -107,17 +141,18 @@
       <list>
         <option value="$PROJECT_DIR$/ninicast/templates/post.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
-        <option value="$PROJECT_DIR$/itsnormal/models.py" />
         <option value="$PROJECT_DIR$/itsnormal/views.py" />
         <option value="$PROJECT_DIR$/ninicast/templates/itsnormal.html" />
-        <option value="$PROJECT_DIR$/itssafe/models.py" />
         <option value="$PROJECT_DIR$/itssafe/admin.py" />
         <option value="$PROJECT_DIR$/itsnormal/apps.py" />
-        <option value="$PROJECT_DIR$/ninicast/settings.py" />
         <option value="$PROJECT_DIR$/ninicast/urls.py" />
         <option value="$PROJECT_DIR$/itsnormal/urls.py" />
         <option value="$PROJECT_DIR$/itssafe/views.py" />
         <option value="$PROJECT_DIR$/itssafe/urls.py" />
+        <option value="$PROJECT_DIR$/ninicast/settings.py" />
+        <option value="$PROJECT_DIR$/itsnormal/static/css/style.css" />
+        <option value="$PROJECT_DIR$/itssafe/models.py" />
+        <option value="$PROJECT_DIR$/itsnormal/models.py" />
       </list>
     </option>
   </component>
@@ -153,7 +188,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,6 +248,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ninicast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ninicast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ninicast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="itssafe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -232,8 +288,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ninicast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ninicast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itsnormal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,11 +506,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="65" width="1856" height="1015" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -447,7 +523,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -475,6 +550,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/itssafe/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="135" column="20" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/settings.py.sample">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/itssafe/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -594,24 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="130" column="83" selection-start-line="130" selection-start-column="83" selection-end-line="130" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/itsnormal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -682,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -701,16 +811,6 @@
         <state relative-caret-position="312">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itssafe/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,6 +831,88 @@
           <folding>
             <element signature="e#24#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/sass/mdb.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/sass/mdb/free/_color.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/sass/mdb/free/_forms-basic.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/mdb.min (copy).css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966">
+          <caret line="366" column="12" selection-start-line="366" selection-start-column="12" selection-end-line="366" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="148" column="15" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
