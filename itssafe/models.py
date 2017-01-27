@@ -39,7 +39,7 @@ class itssafePosts(models.Model):
     def get_absolute_url(self):
         return reverse('itssafe:showpost', kwargs={'id':self.id})
     def save(self, *args, **kwargs):
-        self.categoryCode='normal'+str(self.categoryName.categoryID)
+        self.categoryCode='safe'+str(self.categoryName.categoryID)
         super(itssafePosts, self).save(*args, **kwargs)
 
     @classmethod

@@ -376,18 +376,11 @@ float:left;
   background:#333;
 }
 #copyright p {
-  padding-top: 15px;
-  color: #4f5356;
+  padding: 0;
+  color: #858585;
   font-size: 12px;
 }
-#copyright a {
-  color: #858585;
-  text-decoration: none;
-}
-#copyright a:hover {
-  color: #111;
-  text-decoration: underline;
-}
+
 /* Post and page style
 --------------------------------------------------------------*/
 .type-post,#main-nav-wrapper,nav {

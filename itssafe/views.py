@@ -142,10 +142,5 @@ def showSafePost(request, id=None):
 
     return render(request, 'post.html',context)
 
-def hello(request):
-    css="index.jpg"
-    context = {
-        'bg': css,
-    }
-    return render(request, 'index.html',context)
+
 
