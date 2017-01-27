@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0000.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0105.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0107.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0108.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0109.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0201.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0202.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0203.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0204.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0206.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0301.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0302.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0303.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0304.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0305.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0306.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0307.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0308.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0309.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0310.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0311.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0312.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0313.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0314.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0315.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0316.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0317.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0318.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0401.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0402.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0403.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0404.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0405.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0501.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0502.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0600.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0601.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0602.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0603.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0604.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0605.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/safe0606.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/models.py" afterPath="$PROJECT_DIR$/itsnormal/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/static/css/style.css" afterPath="$PROJECT_DIR$/itsnormal/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/models.py" afterPath="$PROJECT_DIR$/itssafe/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/settings.py" afterPath="$PROJECT_DIR$/ninicast/settings.py" />
     </list>
     <ignored path="ninicast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -501,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483265550098</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pictures temp deleted. &lt;,blank=True&gt; add to itsnormal and itssafe models.">
+      <created>1485530342520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485530342520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -543,7 +485,8 @@
     <MESSAGE value="improve post page view with change footer sequence&#10;" />
     <MESSAGE value="add ageRangeStart and ageRageEnd to intsnormal&#10;" />
     <MESSAGE value="add filter(status=1) to intsnormal. becouse can hide or show  a item with change statuse value&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add filter(status=1) to intsnormal. becouse can hide or show  a item with change statuse value&#10;" />
+    <MESSAGE value="pictures temp deleted. &lt;,blank=True&gt; add to itsnormal and itssafe models." />
+    <option name="LAST_COMMIT_MESSAGE" value="pictures temp deleted. &lt;,blank=True&gt; add to itsnormal and itssafe models." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
