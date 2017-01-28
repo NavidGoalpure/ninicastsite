@@ -23,5 +23,6 @@ urlpatterns = [
                   url(r'^admin/', admin.site.urls),
                   url(r'^itsnormal/', include('itsnormal.urls', namespace='itsnormal')),
                   url(r'^itssafe/', include('itssafe.urls', namespace='itssafe')),
-                    url(r'^$',views.hello , name = 'mainpage'),
+                  url(r'^$',views.hello , name = 'mainpage'),
+                  # url(r'^(?P<id>[0-9]{1,3})$', views.showSafePost, name='showpost'),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
