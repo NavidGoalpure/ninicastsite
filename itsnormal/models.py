@@ -2,10 +2,9 @@
 from __future__ import unicode_literals
 
 from django.db import models
-from django.forms import DateField
 from django.core.urlresolvers import reverse
-from django.conf import settings
-import os.path
+from django.contrib.sitemaps import ping_google
+
 
 class itsNormalCategories(models.Model):
     categoryName = models.CharField(max_length=30)
@@ -40,6 +39,12 @@ class itsNormalPosts(models.Model):
         return reverse('itsnormal:showpost', kwargs={'id':self.id})
     def save(self, *args, **kwargs):
         self.categoryCode='normal'+str(self.categoryName.categoryID)
+        try:
+            ping_google()
+        except Exception:
+            # Bare 'except' because we could get a variety
+            # of HTTP-related exceptions.
+            pass
         super(itsNormalPosts, self).save(*args, **kwargs)
 
     @classmethod

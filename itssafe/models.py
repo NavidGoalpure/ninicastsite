@@ -2,10 +2,8 @@
 from __future__ import unicode_literals
 
 from django.db import models
-from django.forms import DateField
 from django.core.urlresolvers import reverse
 from django.contrib.sitemaps import ping_google
-import os.path
 
 class itssafeCategories(models.Model):
     categoryName = models.CharField(max_length=30)
