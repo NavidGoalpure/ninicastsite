@@ -28,7 +28,12 @@
                     <!--/.Card Category-->
                     <div class="pinbin-category">
                       <p>
-                          <a href='{{item.categoryCode}}' rel="category tag">{{item.categoryName}}</a>
+                          {% if forloop.counter0 < 7 %}
+                            <a href='itssafe/{{item.categoryCode}}' rel="category tag">{{item.categoryName}}</a>
+                        {% else %}
+                            <a href='itsnormal/{{item.categoryCode}}' rel="category tag">{{item.categoryName}}</a>
+                        {% endif %}
+
                       </p>
                   </div>
                     <!--/.Card image-->
