@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from django.db import models
 from django.forms import DateField
 from django.core.urlresolvers import reverse
-from django.conf import settings
+from django.contrib.sitemaps import ping_google
 import os.path
 
 class itssafeCategories(models.Model):
@@ -40,6 +40,12 @@ class itssafePosts(models.Model):
         return reverse('itssafe:showpost', kwargs={'id':self.id})
     def save(self, *args, **kwargs):
         self.categoryCode='safe'+str(self.categoryName.categoryID)
+        try:
+            ping_google()
+        except Exception:
+            # Bare 'except' because we could get a variety
+            # of HTTP-related exceptions.
+            pass
         super(itssafePosts, self).save(*args, **kwargs)
 
     @classmethod

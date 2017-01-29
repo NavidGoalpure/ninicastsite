@@ -17,12 +17,22 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.conf.urls.static import static
 from django.contrib import admin
+from django.contrib import sitemaps
+from django.contrib.sitemaps.views import sitemap
 from . import views
+from views import PostSitemap
+
+sitemaps = {
+        'post': PostSitemap
+}
 
 urlpatterns = [
                   url(r'^admin/', admin.site.urls),
                   url(r'^itsnormal/', include('itsnormal.urls', namespace='itsnormal')),
                   url(r'^itssafe/', include('itssafe.urls', namespace='itssafe')),
                   url(r'^$',views.hello , name = 'mainpage'),
-                  # url(r'^(?P<id>[0-9]{1,3})$', views.showSafePost, name='showpost'),
+                  url(r'^googleab93e03628178ac3\.html$',views.googleWebmasterToolLink , name = 'mainpage'),
+
+                  url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
+                  name='django.contrib.sitemaps.views.sitemap')
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

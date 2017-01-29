@@ -37,12 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'template_debug',
+    # 'template_debug',
     'itsnormal.apps.ItsnormalConfig',
     'itssafe.apps.ItssafeConfig',
+    'django.contrib.sitemaps',
+    'django.contrib.sites',
 
 
 ]
+#for sites framework that use for sitemap and ping google
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

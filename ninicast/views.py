@@ -1,7 +1,12 @@
 # coding=utf-8
-from django.shortcuts import render , get_object_or_404
+from django.shortcuts import render
+from django.shortcuts import render_to_response
 from itssafe.models import itssafePosts
 from itsnormal.models import itsNormalPosts
+from django.contrib.sitemaps import Sitemap
+from itssafe.models import itssafePosts as post1
+from itsnormal.models import itsNormalPosts as post2
+
 
 def hello(request):
     items = []
@@ -53,3 +58,17 @@ def hello(request):
         'items': items,
     }
     return render(request, 'mainpage.html', context)
+def googleWebmasterToolLink(request):
+    return render(request,'googleab93e03628178ac3.html')
+
+class PostSitemap(Sitemap):
+    changefreq = "daily"
+    priority = 1.0
+
+    def items(self):
+        return post1.objects.all()
+    def items2(self):
+        return post2.objects.all()
+
+    def lastmod(self, obj):
+        return obj.publication_date
