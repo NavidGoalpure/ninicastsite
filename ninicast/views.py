@@ -1,11 +1,8 @@
 # coding=utf-8
 from django.shortcuts import render
-from django.shortcuts import render_to_response
+from django.contrib.sitemaps import Sitemap
 from itssafe.models import itssafePosts
 from itsnormal.models import itsNormalPosts
-from django.contrib.sitemaps import Sitemap
-from itssafe.models import itssafePosts as post1
-from itsnormal.models import itsNormalPosts as post2
 
 
 def hello(request):
@@ -61,14 +58,21 @@ def hello(request):
 def googleWebmasterToolLink(request):
     return render(request,'googleab93e03628178ac3.html')
 
-class PostSitemap(Sitemap):
+class ItsSafeSitemap(Sitemap):
     changefreq = "daily"
     priority = 1.0
 
     def items(self):
-        return post1.objects.all()
-    def items2(self):
-        return post2.objects.all()
+        return itssafePosts.objects.all()
 
+    def lastmod(self, obj):
+        return obj.publication_date
+
+class ItsNormalSitemap(Sitemap):
+    changefreq = "daily"
+    priority = 1.0
+
+    def items(self):
+        return itsNormalPosts.objects.all()
     def lastmod(self, obj):
         return obj.publication_date

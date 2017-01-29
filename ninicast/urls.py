@@ -20,10 +20,12 @@ from django.contrib import admin
 from django.contrib import sitemaps
 from django.contrib.sitemaps.views import sitemap
 from . import views
-from views import PostSitemap
+from views import ItsSafeSitemap
+from views import ItsNormalSitemap
 
 sitemaps = {
-        'post': PostSitemap
+        'post1': ItsNormalSitemap,
+        'post2': ItsSafeSitemap
 }
 
 urlpatterns = [
@@ -31,8 +33,8 @@ urlpatterns = [
                   url(r'^itsnormal/', include('itsnormal.urls', namespace='itsnormal')),
                   url(r'^itssafe/', include('itssafe.urls', namespace='itssafe')),
                   url(r'^$',views.hello , name = 'mainpage'),
+                    #for googleWebmasterTools
                   url(r'^googleab93e03628178ac3\.html$',views.googleWebmasterToolLink , name = 'mainpage'),
-
                   url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
                   name='django.contrib.sitemaps.views.sitemap')
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

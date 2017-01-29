@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/models.py" afterPath="$PROJECT_DIR$/itssafe/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/settings.py" afterPath="$PROJECT_DIR$/ninicast/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/urls.py" afterPath="$PROJECT_DIR$/ninicast/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/views.py" afterPath="$PROJECT_DIR$/ninicast/views.py" />
     </list>
@@ -26,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="33" column="85" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="85" />
+            <state relative-caret-position="561">
+              <caret line="36" column="107" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="107" />
               <folding>
                 <element signature="e#642#674#0" expanded="true" />
               </folding>
@@ -38,14 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itssafe/models.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninicast/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,46 +49,8 @@
         <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="70" />
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="67" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ninicast/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-              <folding>
-                <element signature="e#15#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itssafe/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1155">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
-              <folding>
-                <element signature="e#2267#2441#0" expanded="false" />
-                <element signature="e#2476#2650#0" expanded="false" />
-                <element signature="e#2684#2858#0" expanded="false" />
-                <element signature="e#2891#3065#0" expanded="false" />
-                <element signature="e#3104#3278#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,10 +83,10 @@
         <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/itssafe/views.py" />
-        <option value="$PROJECT_DIR$/ninicast/urls.py" />
-        <option value="$PROJECT_DIR$/ninicast/views.py" />
         <option value="$PROJECT_DIR$/itssafe/models.py" />
         <option value="$PROJECT_DIR$/ninicast/settings.py" />
+        <option value="$PROJECT_DIR$/ninicast/views.py" />
+        <option value="$PROJECT_DIR$/ninicast/urls.py" />
       </list>
     </option>
   </component>
@@ -496,7 +453,6 @@
         <state relative-caret-position="3192">
           <caret line="135" column="20" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="20" />
           <folding>
-            <element signature="e#15#70#0" expanded="true" />
             <element signature="e#2060#2234#0" expanded="false" />
             <element signature="e#2267#2441#0" expanded="false" />
             <element signature="e#2476#2650#0" expanded="false" />
@@ -548,7 +504,6 @@
         <state relative-caret-position="3192">
           <caret line="135" column="20" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="20" />
           <folding>
-            <element signature="e#15#70#0" expanded="true" />
             <element signature="e#2060#2234#0" expanded="false" />
             <element signature="e#2267#2441#0" expanded="false" />
             <element signature="e#2476#2650#0" expanded="false" />
@@ -814,58 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="33" column="85" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="85" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itssafe/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#2267#2441#0" expanded="false" />
-            <element signature="e#2476#2650#0" expanded="false" />
-            <element signature="e#2684#2858#0" expanded="false" />
-            <element signature="e#2891#3065#0" expanded="false" />
-            <element signature="e#3104#3278#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itssafe/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django.contrib.sites">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1008">
@@ -879,6 +782,56 @@
         <state relative-caret-position="-168">
           <caret line="47" column="10" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#2267#2441#0" expanded="false" />
+            <element signature="e#2476#2650#0" expanded="false" />
+            <element signature="e#2684#2858#0" expanded="false" />
+            <element signature="e#2891#3065#0" expanded="false" />
+            <element signature="e#3104#3278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="107" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="107" />
+          <folding>
+            <element signature="e#642#674#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
