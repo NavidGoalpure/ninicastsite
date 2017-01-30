@@ -1,8 +1,6 @@
 # coding=utf-8
 from django.shortcuts import render , get_object_or_404
 from .models import itsNormalPosts
-from .models import itsNormalCategories
-
 def itsnormal(request):
 
     behaviors= itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID =1)
@@ -37,12 +35,14 @@ def itsnormal(request):
     }
     return render(request,'itsnormal.html',context)
 
+
 def itsnormalBehaviors(request):
     items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=1)
     context ={
         'items':items,
     }
     return render(request,'itsnormal.html',context)
+
 
 def itsnormalGrowths(request):
     items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=2)
@@ -51,12 +51,14 @@ def itsnormalGrowths(request):
     }
     return render(request,'itsnormal.html',context)
 
+
 def itsnormalHealths(request):
     items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=3)
     context ={
         'items':items,
     }
     return render(request,'itsnormal.html',context)
+
 
 def itsnormalNewmoms(request):
     items = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=4)
@@ -101,11 +103,3 @@ def showNormalPost(request, id=None):
     }
 
     return render(request, 'post.html',context)
-
-def hello(request):
-    css="index.jpg"
-    context = {
-        'bg': css,
-    }
-    return render(request, 'index.html',context)
-

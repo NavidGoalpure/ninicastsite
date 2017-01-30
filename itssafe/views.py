@@ -1,7 +1,8 @@
 # coding=utf-8
 from django.shortcuts import render , get_object_or_404
 from .models import itssafePosts
-from .models import itssafeCategories
+from django.views.decorators.cache import cache_page
+
 
 def itssafe(request):
 
@@ -56,12 +57,14 @@ def itssafe(request):
     }
     return render(request,'itssafe.html',context)
 
+
 def itssafeTravel(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=1)
     context ={
         'items':items,
     }
     return render(request,'itssafe.html',context)
+
 
 def itssafeFood(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=2)
@@ -70,12 +73,14 @@ def itssafeFood(request):
     }
     return render(request,'itssafe.html',context)
 
+
 def itssafeSport(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=3)
     context ={
         'items':items,
     }
     return render(request,'itssafe.html',context)
+
 
 def itssafeHealths(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=4)
@@ -84,6 +89,7 @@ def itssafeHealths(request):
     }
     return render(request,'itssafe.html',context)
 
+
 def itssafeBeauty(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=5)
     context ={
@@ -91,12 +97,14 @@ def itssafeBeauty(request):
     }
     return render(request,'itssafe.html',context)
 
+
 def itssafeSleep(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=6)
     context ={
         'items':items,
     }
     return render(request,'itssafe.html',context)
+
 
 def itssafeHomeAndWork(request):
     items = itssafePosts.objects.filter(status=1).filter(categoryName__categoryID=7)

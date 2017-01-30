@@ -5,6 +5,7 @@ from itssafe.models import itssafePosts
 from itsnormal.models import itsNormalPosts
 
 
+
 def hello(request):
     items = []
 #collect 1 item from each itssafe coloumn
