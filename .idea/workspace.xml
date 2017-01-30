@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/images/view_calandar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/img/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/img/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/8_EtaTCi0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/8_ReqU5mw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/8_r05cmOF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/8_tY0Ay3J.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/background_quiz_item_number.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/base.html" afterPath="$PROJECT_DIR$/ninicast/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/settings.py" afterPath="$PROJECT_DIR$/ninicast/settings.py" />
     </list>
     <ignored path="ninicast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +26,20 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="36" column="107" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="107" />
+            <state relative-caret-position="528">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninicast/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
               <folding>
-                <element signature="e#642#674#0" expanded="true" />
+                <element signature="e#15#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
+            <state relative-caret-position="70">
               <caret line="150" column="187" selection-start-line="150" selection-start-column="187" selection-end-line="150" selection-end-column="187" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -113,12 +113,12 @@
         <option value="$PROJECT_DIR$/itsnormal/static/css/mdb.css" />
         <option value="$PROJECT_DIR$/ninicast/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/itssafe/views.py" />
-        <option value="$PROJECT_DIR$/ninicast/settings.py" />
         <option value="$PROJECT_DIR$/ninicast/views.py" />
         <option value="$PROJECT_DIR$/ninicast/urls.py" />
         <option value="$PROJECT_DIR$/itsnormal/models.py" />
         <option value="$PROJECT_DIR$/itssafe/models.py" />
         <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
+        <option value="$PROJECT_DIR$/ninicast/settings.py" />
       </list>
     </option>
   </component>
@@ -437,16 +437,24 @@
       <option name="project" value="LOCAL" />
       <updated>1485530342520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change footer desc">
+      <created>1485767657744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1485767657744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="65" width="1856" height="1015" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -459,7 +467,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -480,7 +487,8 @@
     <MESSAGE value="add ageRangeStart and ageRageEnd to intsnormal&#10;" />
     <MESSAGE value="add filter(status=1) to intsnormal. becouse can hide or show  a item with change statuse value&#10;" />
     <MESSAGE value="pictures temp deleted. &lt;,blank=True&gt; add to itsnormal and itssafe models." />
-    <option name="LAST_COMMIT_MESSAGE" value="pictures temp deleted. &lt;,blank=True&gt; add to itsnormal and itssafe models." />
+    <MESSAGE value="change footer desc" />
+    <option name="LAST_COMMIT_MESSAGE" value="change footer desc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -782,13 +790,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django.contrib.sites" />
-    <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itssafe/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -796,27 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="36" column="107" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="107" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -840,8 +824,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
+        <state relative-caret-position="70">
           <caret line="150" column="187" selection-start-line="150" selection-start-column="187" selection-end-line="150" selection-end-column="187" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+          <folding>
+            <element signature="e#15#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
           <folding />
         </state>
       </provider>
