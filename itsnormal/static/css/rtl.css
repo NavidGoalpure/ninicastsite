@@ -23,7 +23,9 @@ html, body, div, h1, h2, h3, h4, h5, h6, input, textarea,option{
 	  font-family: VazirFont !important;
 	 font-weight: normal;
 }
-
+body{
+background:#f1f1f1;
+}
 p{
 	  font-family: VazirFont !important;
 }

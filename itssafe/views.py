@@ -1,4 +1,6 @@
 # coding=utf-8
+from random import randrange
+
 from django.shortcuts import render , get_object_or_404
 from .models import itssafePosts
 from django.views.decorators.cache import cache_page
@@ -115,6 +117,8 @@ def itssafeHomeAndWork(request):
 
 
 def showSafePost(request, id=None):
+    reservedListIds=[]
+    reservedListIds.append(int(id))
     safePost = get_object_or_404(itssafePosts,id =id)
 
     # پیدا کردن آیدی پست قبلی و پست بعدی تا در دکمه های بک و نکست استفاده بشن
@@ -139,13 +143,34 @@ def showSafePost(request, id=None):
         nextID = -1
     else:
         nextID = int(items[idLocation + 1].id)
-
+        # ************* same posts*****************
+        # ***choose other post 1
+        while True:
+            random1 = randrange(0, len(items) - 1)
+            if (random1 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
+                reservedListIds.append(random1)
+                break
+        # ***choose other post 2
+        while True:
+            random2 = randrange(0, len(items) - 1)
+            if (random2 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
+                reservedListIds.append(random2)
+                break
+        # ***choose other post 3
+        while True:
+            random3 = randrange(0, len(items) - 1)
+            if (random3 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
+                # tempId.append(random3)
+                break
     context = {
         'post': safePost,
         'prevID': prevID,
         'nextID': nextID,
         'catagoryName': catagoryName,
         'catagoryCode': catagoryCode,
+        'samePost1': items[random1],
+        'samePost2': items[random2],
+        'samePost3': items[random3],
     }
 
     return render(request, 'post.html',context)
