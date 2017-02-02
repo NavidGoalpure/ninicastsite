@@ -162,6 +162,9 @@ def showSafePost(request, id=None):
             if (random3 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
                 # tempId.append(random3)
                 break
+
+    # اگر تعداد پست ها مضرب ۴ بود نتیجه 0 برمی گرداند  ( برای نمایش آخرین دیو )
+    mymod = len(items) % 4
     context = {
         'post': safePost,
         'prevID': prevID,
@@ -171,6 +174,7 @@ def showSafePost(request, id=None):
         'samePost1': items[random1],
         'samePost2': items[random2],
         'samePost3': items[random3],
+         'mod4':mymod,
     }
 
     return render(request, 'post.html',context)

@@ -118,6 +118,9 @@ def showNormalPost(request, id=None):
                 #tempId.append(random3)
                 break
 
+
+                # اگر تعداد پست ها مضرب ۴ بود نتیجه 0 برمی گرداند  ( برای نمایش آخرین دیو )
+    mymod = len(items) % 4
     context = {
         'post': normalPost,
         'prevID': prevID,
@@ -127,6 +130,7 @@ def showNormalPost(request, id=None):
         'samePost1': items[random1],
         'samePost2': items[random2],
         'samePost3': items[random3],
+        'mod4': mymod,
 
     }
 

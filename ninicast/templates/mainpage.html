@@ -2,7 +2,6 @@
 
 {% extends 'base.html' %}
 {% block content %}
- <li>8 + 3 = {{ 8|add:3 }}</li>
     {% for item in items %}
             {% cycle '<div class ="row">' '' '' '' %}
             <div  class="col-lg-3 col-md-6 mb-r" >
