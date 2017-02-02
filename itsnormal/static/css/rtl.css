@@ -166,20 +166,34 @@ ul ul,ol ol,ul ol,ol ul {
     box-shadow: 0px 0px 6px #aaa;
     margin: 2px auto 10px auto;
 }
+.sidebox img{
+ width:100%;
+ display:block;
+}
 .sidebox h3{
     border-bottom:2px solid #2692d5;
     background:#f2f2f2;
     padding-right:10px;
  transition:0.3s;
+ font-size:13px;
+ padding:0px;
+ margin:0px;
+ padding:3px;
+ line-height:20px;
 
 }
-.sidebox h3:hover{
+ h3:hover{
 color:#41bfd6;
     border-bottom:2px solid #ef357c;
     background:#efefef;
  transition:0.3s;
 }
-
+.sidebox div{
+ padding:3px;
+ font-size:11px;
+ color:#999;
+ }
+/*
 .sidebox ul{
  list-style:none;
  padding:0px;
@@ -193,12 +207,12 @@ color:#41bfd6;
  transition:0.3s;
  background:#f9f9f9;
 }
-.sidebox ul li a:hover{
+.sidebox a:hover{
  transition:0.3s;
  padding-right:1px;
  color: #ef357c;
  background:#f6f6f6;
-}
+} */
 .type-post,.type-page,.type-attachment,#post-area .post {
 	border-left: 1px solid #dbdbdb;
 	border-right: none;

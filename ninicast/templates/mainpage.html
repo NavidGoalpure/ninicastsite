@@ -60,7 +60,14 @@
                         <!--Card footer-->
                         <div class="card-footer">
                             <span class="left">
-                                <a href="{{item.id}}" style="font-size:12px;">ادامه مطلب...</a>
+                                {% if forloop.counter0 < 7 %}
+                            <a  href="itssafe/{{item.id}}" title="{{item.titr}}" style="font-size:12px;">
+                        {% else %}
+                            <a  href="itsnormal/{{item.id}}" title="{{item.titr}}" style="font-size:12px;">
+                        {% endif %}
+ادامه مطلب...
+
+                                </a>
                             </span>
                             <span class="right tools">
                                 <a data-toggle="tooltip" data-placement="top" title="حذف"><i class="fa fa-trash"></i></a>

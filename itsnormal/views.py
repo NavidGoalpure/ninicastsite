@@ -1,6 +1,7 @@
 # coding=utf-8
 from django.shortcuts import render , get_object_or_404
 from .models import itsNormalPosts
+from random import randrange
 def itsnormal(request):
 
     behaviors= itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID =1)
@@ -69,6 +70,8 @@ def itsnormalNewmoms(request):
 
 
 def showNormalPost(request, id=None):
+    reservedListIds=[]
+    reservedListIds.append(int(id))
     normalPost = get_object_or_404(itsNormalPosts,id =id)
 
     # پیدا کردن آیدی پست قبلی و پست بعدی تا در دکمه های بک و نکست استفاده بشن
@@ -79,6 +82,7 @@ def showNormalPost(request, id=None):
             idLocation=counter
             catagoryName=item.categoryName
             catagoryCode=item.categoryCode
+
 
 
         counter+=1
@@ -94,12 +98,36 @@ def showNormalPost(request, id=None):
     else:
         nextID = int(items[idLocation + 1].id)
 
+#************* same posts*****************
+        # ***choose other post 1
+        while True:
+            random1 = randrange(0, len(items) - 1)
+            if (random1 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
+                reservedListIds.append(random1)
+                break
+        # ***choose other post 2
+        while True:
+            random2 = randrange(0, len(items) - 1)
+            if (random2 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
+                reservedListIds.append(random2)
+                break
+        # ***choose other post 3
+        while True:
+            random3 = randrange(0, len(items) - 1)
+            if (random3 not in reservedListIds):  # اگه این پست تو لیست نمایش ها نبود قبولش میکنیم و میریم به مرحله بعد
+                #tempId.append(random3)
+                break
+
     context = {
         'post': normalPost,
         'prevID': prevID,
         'nextID': nextID,
         'catagoryName': catagoryName,
         'catagoryCode': catagoryCode,
+        'samePost1': items[random1],
+        'samePost2': items[random2],
+        'samePost3': items[random3],
+
     }
 
     return render(request, 'post.html',context)
