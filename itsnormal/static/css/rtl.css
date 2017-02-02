@@ -152,7 +152,53 @@ ul ul,ol ol,ul ol,ol ul {
 
 /* Post and page style
 --------------------------------------------------------------*/
+.post-page{
+ width:980px;
+ margin:0px auto;
+}
+.post-sidebar{
+  float:right;
+  width:210px;
+}
+.sidebox{
+    width: 95%;
+    background: #fff;
+    box-shadow: 0px 0px 6px #aaa;
+    margin: 2px auto 10px auto;
+}
+.sidebox h3{
+    border-bottom:2px solid #2692d5;
+    background:#f2f2f2;
+    padding-right:10px;
+ transition:0.3s;
 
+}
+.sidebox h3:hover{
+color:#41bfd6;
+    border-bottom:2px solid #ef357c;
+    background:#efefef;
+ transition:0.3s;
+}
+
+.sidebox ul{
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.sidebox ul li {
+ margin:1px;
+}
+.sidebox ul li a{
+ display:block;
+ transition:0.3s;
+ background:#f9f9f9;
+}
+.sidebox ul li a:hover{
+ transition:0.3s;
+ padding-right:1px;
+ color: #ef357c;
+ background:#f6f6f6;
+}
 .type-post,.type-page,.type-attachment,#post-area .post {
 	border-left: 1px solid #dbdbdb;
 	border-right: none;
@@ -160,7 +206,7 @@ ul ul,ol ol,ul ol,ol ul {
 
 .type-post,.type-page,.type-attachment {
 	margin-left: 10px;
-	float: none;
+	float: right;
     margin-right: auto;
     margin: 0px auto;
 }
@@ -239,7 +285,15 @@ ul ul,ol ol,ul ol,ol ul {
 	margin-right: -15px;
 	margin-left: auto;
 }
-
+#wrap{
+margin-bottom:70px;
+padding:0px 20px;
+}
+#wrap:after{
+ content:' ';
+ display:block;
+ clear:both;
+}
 /* Other
 --------------------------------------------------------------*/
 
@@ -268,7 +322,9 @@ blockquote {
 	margin-left: auto;
 	border-left: none;
 }
-
+.pinbin-image img {
+    width: 100%;
+}
 /* Table
 --------------------------------------------------------------*/
 
@@ -306,11 +362,24 @@ blockquote {
 /* Navigation */
 
 /* For devices with screen size lower than 767px */
-@media only screen and (max-width: 771px) {
+@media only screen and (max-width: 1000px) {
+.type-post{
+	width: 550px;
+}
+.post-sidebar {
+ width:200px;
+}
+.post-page {
+    width: 760px;}
+}
+@media only screen and (max-width: 791px) {
 #main-nav-wrapper {
     height: 42px;
     display: inline;
     float: none;
+}
+.post-next a {
+    margin-right: 92%;
 }
 .main-nav select {
     display: inline;
@@ -318,16 +387,19 @@ blockquote {
     -webkit-appearance: none;
     background: url('../images/mobile-menu-icon.png') no-repeat scroll left center #FFF;
 }
-.type-post, .type-page, .type-attachment {
+.type-post,.post-sidebar , .type-page, .type-attachment {
 	width: 97%;
+	float:none;
+	margin:10px auto;
 }
 
 }
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 800px) {
 #wrap {
-    margin-right: 2%;
-    margin-left: auto;
 }
+    .post-page{
+     width:100%;
+    }
 }
 
 
@@ -335,8 +407,10 @@ blockquote {
 /*_________________________________*/
 
 @media only screen and (max-width: 530px) {
-.type-post, .type-page, .type-attachment {
+.type-post , .post-sidebar , .type-page, .type-attachment {
  max-width: 100%;
+	float:none;
+	margin:10px auto;
 }
 #logo img, .pinbin-image img {
 	max-width: 100%;
@@ -344,7 +418,10 @@ blockquote {
 .post-next a {
     margin-right: 414px;
 }
-	
+
+#wrap{
+margin-bottom:100px;
+}
 }
 
 

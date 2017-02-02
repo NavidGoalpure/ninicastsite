@@ -835,7 +835,7 @@ h2 {
 }
 }
 /* For devices with screen size lower than 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 790px) {
   /* Navigation */
 .main-nav ul {
   display: none;
