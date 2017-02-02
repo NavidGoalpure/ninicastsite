@@ -12,8 +12,8 @@
 
                     <!--Card image-->
                     <div class="view overlay hm-white-slight">
-                        <img  src="{{item.image.url}}" class="img-fluid" alt="">
-                        <a  href="{{item.id}}">
+                        <img  src="{{item.image.url}}" class="img-fluid" alt="{{item.titr}}">
+                        <a  href="{{item.id}}" title="{{item.titr}}">
                             <div class="mask"></div>
                         </a>
                     </div>
@@ -49,11 +49,11 @@
                             <span class="left">
                                 <a href="{{item.id}}" style="font-size:12px;">ادامه مطلب...</a>
                             </span>
-                            <!--<span class="right">
-                                <a data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="Share"><i class="fa fa-share-alt"></i></a>
-                                <a class="active" data-toggle="tooltip" data-placement="top" title="Added to Wishlist"><i class="fa fa-heart"></i></a>
-                            </span>-->
+                            <span class="right tools">
+                                <a data-toggle="tooltip" data-placement="top" title="حذف"><i class="fa fa-trash"></i></a>
+                                <a data-toggle="tooltip" data-placement="top" title="اشتراک گذاری"><i class="fa fa-share-alt"></i></a>
+                                <a class="active" data-toggle="tooltip" data-placement="top" title="نظرات"><i class="fa fa-comment"></i></a>
+                            </span>
                         </div>
 
                     </div>

@@ -146,11 +146,11 @@ b,strong {
 --------------------------------------------------------------*/
 a:link {
   color: #444444;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:visited {
   color: #111;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #111;
@@ -905,4 +905,16 @@ background:#fff;
  right:0px;
  bottom:0px;
  z-index:999
+}
+.tools a{
+    font-size:14px;
+    color:#ddd !important;
+    transition:0.3s
+}
+.tools a:hover{
+    color:#2692d5 !important;
+    transition:0.3s
+}
+.tools a:hover i{
+transform: scale(1.1,1.1);
 }
