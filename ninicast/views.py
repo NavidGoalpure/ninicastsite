@@ -51,9 +51,12 @@ def hello(request):
     newmoms = itsNormalPosts.objects.filter(status=1).filter(categoryName__categoryID=4)[0]
     items.append(newmoms)
 
+    # اگر تعداد پست ها مضرب ۴ بود نتیجه 0 برمی گرداند  ( برای نمایش آخرین دیو )
+    mymod = len(items) % 4
 
     context = {
         'items': items,
+        'mod4':mymod,
     }
     return render(request, 'mainpage.html', context)
 def googleWebmasterToolLink(request):

@@ -1,8 +1,8 @@
+
+
 {% extends 'base.html' %}
-
 {% block content %}
-
-
+ <li>8 + 3 = {{ 8|add:3 }}</li>
     {% for item in items %}
             {% cycle '<div class ="row">' '' '' '' %}
             <div  class="col-lg-3 col-md-6 mb-r" >
@@ -14,14 +14,15 @@
                     <div class="view overlay hm-white-slight">
                         <img  src="{{item.image.url}}" class="img-fluid" alt="{{item.titr}}">
                         {% if forloop.counter0 < 7 %}
-                            <a  href="itssafe/{{item.id}}" title="{{item.titr}}">
-                        {% else %}
-                            <a  href="itsnormal/{{item.id}}" title="{{item.titr}}">
-                        {% endif %}
-
-
+                         <a  href="itssafe/{{item.id}}" title="{{item.titr}}">
                             <div class="mask"></div>
                         </a>
+                        {% else %}
+                        <a  href="itsnormal/{{item.id}}" title="{{item.titr}}">
+                            <div class="mask"></div>
+                        </a>
+                        {% endif %}
+
                     </div>
                     <!--/.Card Category-->
                     <div class="pinbin-category">
@@ -58,13 +59,10 @@
                         <div class="card-footer">
                             <span class="left">
                                 {% if forloop.counter0 < 7 %}
-                            <a  href="itssafe/{{item.id}}" title="{{item.titr}}" style="font-size:12px;">
+                            <a  href="itssafe/{{item.id}}" title="{{item.titr}}" style="font-size:12px;">ادامه مطلب...</a>
                         {% else %}
-                            <a  href="itsnormal/{{item.id}}" title="{{item.titr}}" style="font-size:12px;">
+                            <a  href="itsnormal/{{item.id}}" title="{{item.titr}}" style="font-size:12px;">ادامه مطلب...</a>
                         {% endif %}
-ادامه مطلب...
-
-                                </a>
                             </span>
                             <span class="right tools">
                                 <a data-toggle="tooltip" data-placement="top" title="حذف"><i class="fa fa-trash"></i></a>
@@ -82,8 +80,11 @@
             </div>
     {% cycle '' '' '' '</div>' %}
 
-
     {% endfor %}
+
+{% if mod4 > 0 %}
+</div>
+{% endif %}
 
 <div style="clear:both"></div>
         <!--/First row-->
