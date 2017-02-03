@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.contrib.sitemaps import Sitemap
 from itssafe.models import itssafePosts
 from itsnormal.models import itsNormalPosts
+from django.views.decorators.cache import cache_page
 
 
 

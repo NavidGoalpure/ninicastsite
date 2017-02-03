@@ -131,7 +131,6 @@ def showNormalPost(request, id=None):
         'samePost2': items[random2],
         'samePost3': items[random3],
         'mod4': mymod,
-
     }
 
     return render(request, 'post.html',context)
