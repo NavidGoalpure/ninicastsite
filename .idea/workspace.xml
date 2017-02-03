@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/bootstrap.min (copy).css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/compiled.min (copy).css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/compiled.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/mdb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/mdb.min (copy).css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/mdb.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery-2.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery-migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery.masonry.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/masonry.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/mdb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/mdb.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/mobile-nav.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/tether.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/tether.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/wp-embed.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itsnormal/static/js/wp-emoji-release.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/base.html" afterPath="$PROJECT_DIR$/ninicast/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/post.html" afterPath="$PROJECT_DIR$/ninicast/templates/post.html" />
     </list>
     <ignored path="ninicast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +25,7 @@
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-914">
+            <state relative-caret-position="-889">
               <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -68,8 +37,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3287">
-              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="479">
+              <caret line="17" column="88520" selection-start-line="17" selection-start-column="88520" selection-end-line="17" selection-end-column="88520" />
               <folding />
             </state>
           </provider>
@@ -812,9 +781,9 @@
         <state relative-caret-position="1032">
           <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="49" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -876,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-914">
+        <state relative-caret-position="-889">
           <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#audio#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -886,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3287">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="479">
+          <caret line="17" column="88520" selection-start-line="17" selection-start-column="88520" selection-end-line="17" selection-end-column="88520" />
           <folding />
         </state>
       </provider>
