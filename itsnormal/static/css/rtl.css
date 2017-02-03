@@ -135,16 +135,6 @@ ul ul,ol ol,ul ol,ol ul {
 	margin-left: auto;
 }
 
-#searchsubmit,button,.comment-submit,input[type="submit"] {
-	background:#fff !important;
-	color:#444;
-	width:100%;
-}
-
-#searchsubmit:hover,.comment-submit:hover {
-	background: #eee !important;
-	color:#000;
-}
 
 /* Footer copyleft
 --------------------------------------------------------------*/
@@ -477,8 +467,67 @@ margin-bottom:100px;
 .post-next a {
     margin-right: 414px;
 }
+}
+.podcasticon{
+    position: relative;
+    display:block;
+}
+.podcasticon:before , .view:before{
+    content: '';
+    display: block;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    transition: 0.2s;
+    z-index: 1;
+}
+.podcasticon:after , .view:after{
+    content: '';
+    display: block;
+    background: url(../images/podcasticon2.png) bottom center no-repeat;
+    background-size: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    right: 74%;
+    bottom: 79%;
+    transition: 0.2s;
+    z-index: 2;
+}
 
- 
+.podcasticon:hover:before , .view:hover:before{
+    opacity: 0;
+    transition:0.2s;
+}
+.podcasticon:hover:after , .view:hover:after{
+    opacity: 0.5;
+    background: url(../images/podcasticon1.png) bottom center no-repeat;
+    background-size: 100%;
+    transition:0.2s;
+    transform: rotate(-15deg);
+}
+
+#comment-form{
+ padding:20px 8%;
+ background:#333;
+  color:#fff;
+}
+
+#comment-form p ,
+#comment-form span ,
+#comment-form h2 {
+color:#fff;
+}
+#comment-form input , #comment-form textarea{
+  background:#555;
+  color:#fff;
+  border:0px;
+}
  
 
 

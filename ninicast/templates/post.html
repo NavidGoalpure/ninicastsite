@@ -10,7 +10,7 @@
         </div>
 
         {% if post.audio.url != null %}
-        <audio controls="controls" style="width:100%; margin:-7px 0px" preload="none"><!--autoplay-->
+        <audio controls="controls" style="width:100%; margin:-7px 0px" preload="none" autoplay><!---->
             <source src="{{post.audio.url}}" type="audio/mpeg">
         </audio>
         {% endif %}
@@ -36,47 +36,64 @@
             <!-- If comments are open, but there are no comments. -->
 
 
-            <!-- stat Comment -- >
-
-            <div id="comment-form">
-
-                <h2>دیدگاه شما چیست؟</h2>
-
-                <div class="cancel-comment-reply">
-                    <a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">برای صرف‌نظر کردن از پاسخ‌گویی اینجا را کلیک کنید.</a>	</div>
-
-
-                                    <div id="respond" class="comment-respond">
-                        <h3 id="reply-title" class="comment-reply-title">پاسخ دهید <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">لغو پاسخ</a></small></h3>				<form action="#" method="post" id="commentform" class="comment-form">
-                                <p class="comment-notes"><span id="email-notes">نشانی ایمیل شما منتشر نخواهد شد.</span> بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">دیدگاه</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required></textarea></p><p class="comment-form-author"><label for="author">نام <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required="true" required></p>
-            <p class="comment-form-email"><label for="email">ایمیل <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required="true" required></p>
-            <p class="comment-form-url"><label for="url">وبسایت</label> <input id="url" name="url" type="text" value="" size="30"></p>
-            <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه"> <input type="hidden" name="comment_post_ID" value="26" id="comment_post_ID">
-            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-            </p>				</form>
-                                </div>
-
-             </div>
-                            <!--- End Comment -->
 
 
         </div>
+        <!-- stat Comment -- >
+        <div id="comment-form">
+
+            <h2>دیدگاه شما چیست؟</h2>
+            <div id="respond" class="comment-respond">
+                <form action="#" method="post" id="commentform" class="comment-form">
+                    <div class="row">
+                        <p class="comment-notes">
+                            <span id="email-notes">نشانی ایمیل شما منتشر نخواهد شد.</span>بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span>
+                        </p>
+                        <p class="col-md-6">
+                            <label for="author">نام <span class="required">*</span></label>
+                            <input id="author" style="width: 95%;" name="author" type="text" value="" size="30" aria-required="true" required>
+                        </p>
+                        <p class="col-md-6">
+                            <label for="email">ایمیل <span class="required">*</span></label>
+                            <input id="email" style="width: 95%;" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required="true" required>
+                        </p>
+                        <p class="col-md-12">
+                            <label for="comment">دیدگاه</label>
+                            <textarea id="comment" style="width:100%" name="comment" cols="45" rows="8" aria-required="true" required></textarea>
+                        </p>
+                        <p class="col-md-12">
+                            <input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه">
+                            <input type="hidden" name="comment_post_ID" value="26" id="comment_post_ID">
+                            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                        </p>
+                    </div>
+                </form>
+        </div>
+
+        </div>
+        <!--- End Comment -->
     </div>
     <div class="post-sidebar">
         <div class="sidebox">
-            <img src="{{samePost1.image.url}}" alt="{{samePost1.titr}}" />
-            <h3><a href="{{samePost1.id}}" >{{samePost1.titr}}</a></h3>
+            <a href="{{samePost1.id}}" class="podcasticon" title="{{samePost1.titr}}">
+                <img src="{{samePost1.image.url}}" alt="{{samePost1.titr}}" />
+            </a>
+            <h3><a href="{{samePost1.id}}" title="{{samePost1.titr}}">{{samePost1.titr}}</a></h3>
             <div>{{samePost1.desc | truncatechars:150}}</div>
         </div>
 
         <div class="sidebox">
-            <img src="{{samePost2.image.url}}" alt="{{samePost2.titr}}" />
+            <a href="{{samePost2.id}}" class="podcasticon" title="{{samePost2.titr}}">
+                <img src="{{samePost2.image.url}}" alt="{{samePost2.titr}}" />
+            </a>
             <h3><a href="{{samePost2.id}}" >{{samePost2.titr}}</a></h3>
             <div>{{samePost2.desc | truncatechars:150}}</div>
         </div>
 
         <div class="sidebox">
-            <img src="{{samePost3.image.url}}" alt="{{samePost3.titr}}" />
+            <a href="{{samePost3.id}}" class="podcasticon" title="{{samePost3.titr}}">
+                <img src="{{samePost3.image.url}}" alt="{{samePost3.titr}}" />
+            </a>
             <h3><a href="{{samePost3.id}}" >{{samePost3.titr}}</a></h3>
             <div>{{samePost1.desc | truncatechars:150}}</div>
         </div>
