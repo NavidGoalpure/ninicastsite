@@ -37,8 +37,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="17" column="88520" selection-start-line="17" selection-start-column="88520" selection-end-line="17" selection-end-column="88520" />
+            <state relative-caret-position="503">
+              <caret line="17" column="88611" selection-start-line="17" selection-start-column="88611" selection-end-line="17" selection-end-column="88611" />
               <folding />
             </state>
           </provider>
@@ -855,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="17" column="88520" selection-start-line="17" selection-start-column="88520" selection-end-line="17" selection-end-column="88520" />
+        <state relative-caret-position="503">
+          <caret line="17" column="88611" selection-start-line="17" selection-start-column="88611" selection-end-line="17" selection-end-column="88611" />
           <folding />
         </state>
       </provider>
