@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+import PIL
+import os
+from urllib import urlopen
+
 from django.db import models
 from django.core.urlresolvers import reverse
 from django.contrib.sitemaps import ping_google
+from PIL import Image
+from django.core.files import File
+from django.core.files.temp import NamedTemporaryFile
+
 
 
 class itsNormalCategories(models.Model):
@@ -26,7 +34,9 @@ class itsNormalPosts(models.Model):
 
     publication_date = models.DateTimeField(auto_now = True)
     image = models.ImageField(upload_to='images/itsnormal/',
-                                  default='images/itsnormal/8.png')
+                              default='images/itsnormal/8.png')
+
+    thumbUrl = models.CharField(max_length=100,blank=True)
 
     audio = models.FileField(upload_to='audio/itsnormal',
                              null=True,blank=True)
@@ -39,13 +49,39 @@ class itsNormalPosts(models.Model):
         return reverse('itsnormal:showpost', kwargs={'id':self.id})
     def save(self, *args, **kwargs):
         self.categoryCode='normal'+str(self.categoryName.categoryID)
+
         try:
             ping_google()
+
         except Exception:
             # Bare 'except' because we could get a variety
             # of HTTP-related exceptions.
             pass
+
+    # ******create thumbnail image
+        basewidth = 300
+        img= Image.open(self.image)
+        wpercent = (basewidth / float(img.size[0]))
+        hsize = int((float(img.size[1]) * float(wpercent)))
+        img = img.resize((basewidth, hsize), PIL.Image.ANTIALIAS)
+        imgname = self.image.url
+        tempChar=imgname[:1]
+        imgname = imgname[1:]
+
+        imgname=imgname.replace("/","/thumb/images/itsnormal/")
+        imgname=str(imgname)
+        if(tempChar!="/"):
+            fullfile = tempChar+imgname
+            self.thumbUrl = str(fullfile)
+        else:
+            fullfile = imgname
+            fullfile=str(fullfile)
+            self.thumbUrl = str(tempChar+fullfile)
+
+        img.save(fullfile)
+
         super(itsNormalPosts, self).save(*args, **kwargs)
+
 
     @classmethod
     def create(cls, categoryCode):

@@ -22,7 +22,7 @@ from django.contrib.sitemaps.views import sitemap
 from . import views
 from views import ItsSafeSitemap
 from views import ItsNormalSitemap
-from django.views.decorators.cache import cache_page
+# from django.views.decorators.cache import cache_page
 
 sitemaps = {
         'post1': ItsNormalSitemap,
@@ -33,7 +33,7 @@ urlpatterns = [
                   url(r'^admin/', admin.site.urls),
                   url(r'^itsnormal/', include('itsnormal.urls', namespace='itsnormal')),
                   url(r'^itssafe/', include('itssafe.urls', namespace='itssafe')),
-                  url(r'^$',cache_page(60 * 15)(views.hello) , name = 'mainpage'),
+                  url(r'^$',views.hello , name = 'mainpage'),
                     #for googleWebmasterTools
                   url(r'^googleab93e03628178ac3\.html$',views.googleWebmasterToolLink , name = 'mainpage'),
                   url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},

@@ -13,11 +13,11 @@
                     <div class="view overlay hm-white-slight">
                         {% if forloop.counter0 < 7 %}
                          <a  class="podcasticon" href="itssafe/{{item.id}}" title="{{item.titr}}">
-                            <img  src="{{item.image.url}}" class="img-fluid" alt="{{item.titr}}">
+                            <img  src="{{item.thumbUrl}}" class="img-fluid" alt="{{item.titr}}">
                         </a>
                         {% else %}
                         <a  class="podcasticon" href="itsnormal/{{item.id}}" title="{{item.titr}}">
-                            <img  src="{{item.image.url}}" class="img-fluid" alt="{{item.titr}}">
+                            <img  src="{{item.thumbUrl}}" class="img-fluid" alt="{{item.titr}}">
                         </a>
                         {% endif %}
 
