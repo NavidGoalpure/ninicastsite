@@ -21,12 +21,15 @@ from django.contrib import sitemaps
 from django.contrib.sitemaps.views import sitemap
 from . import views
 from views import ItsSafeSitemap
+from views import mainPagesSitemap
 from views import ItsNormalSitemap
-# from django.views.decorators.cache import cache_page
+from django.contrib.sitemaps import views as mapviews
+
 
 sitemaps = {
         'post1': ItsNormalSitemap,
-        'post2': ItsSafeSitemap
+        'post2': ItsSafeSitemap,
+        'pages': mainPagesSitemap(['mainpage']),
 }
 
 urlpatterns = [
@@ -35,7 +38,8 @@ urlpatterns = [
                   url(r'^itssafe/', include('itssafe.urls', namespace='itssafe')),
                   url(r'^$',views.hello , name = 'mainpage'),
                     #for googleWebmasterTools
-                  url(r'^googleab93e03628178ac3\.html$',views.googleWebmasterToolLink , name = 'mainpage'),
-                  url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
-                  name='django.contrib.sitemaps.views.sitemap')
+                  url(r'^googleab93e03628178ac3\.html$',views.googleWebmasterToolLink ),
+                  url(r'^sitemap\.xml$', mapviews.index, {'sitemaps': sitemaps}),
+                  url(r'^sitemap-(?P<section>.+)\.xml$', mapviews.sitemap, {'sitemaps': sitemaps},
+                      name='django.contrib.sitemaps.views.sitemap'),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

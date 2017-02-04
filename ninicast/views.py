@@ -1,9 +1,11 @@
 # coding=utf-8
 from django.shortcuts import render
 from django.contrib.sitemaps import Sitemap
+from django.urls import reverse
+
 from itssafe.models import itssafePosts
 from itsnormal.models import itsNormalPosts
-from django.views.decorators.cache import cache_page
+import datetime
 
 
 
@@ -81,3 +83,19 @@ class ItsNormalSitemap(Sitemap):
         return itsNormalPosts.objects.all()
     def lastmod(self, obj):
         return obj.publication_date
+
+class mainPagesSitemap(Sitemap):
+    def __init__(self, names):
+        self.names = names
+
+    def items(self):
+        return self.names
+
+    def changefreq(self, obj):
+        return 'daily'
+
+    def lastmod(self, obj):
+        return datetime.datetime.now()
+
+    def location(self, obj):
+        return reverse(obj)
