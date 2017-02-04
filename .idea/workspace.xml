@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/itsnormal/up_menu_icon.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itsnormal/static/css/mystyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itsnormal/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/models.py" afterPath="$PROJECT_DIR$/itsnormal/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/urls.py" afterPath="$PROJECT_DIR$/itsnormal/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/models.py" afterPath="$PROJECT_DIR$/itssafe/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/urls.py" afterPath="$PROJECT_DIR$/itssafe/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/settings.py" afterPath="$PROJECT_DIR$/ninicast/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/base.html" afterPath="$PROJECT_DIR$/ninicast/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/itsnormal.html" afterPath="$PROJECT_DIR$/ninicast/templates/itsnormal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/itssafe.html" afterPath="$PROJECT_DIR$/ninicast/templates/itssafe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/mainpage.html" afterPath="$PROJECT_DIR$/ninicast/templates/mainpage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/templates/post.html" afterPath="$PROJECT_DIR$/ninicast/templates/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ninicast/urls.py" afterPath="$PROJECT_DIR$/ninicast/urls.py" />
     </list>
     <ignored path="ninicast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,36 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="526">
+              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itssafe/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,30 +41,52 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ninicast/templates/mainpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="1200">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itsnormal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ninicast/templates/itsnormal.html">
+      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ninicast/templates/mainpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mystyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itsnormal/static/css/mystyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="1" column="2617" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="2617" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itsnormal/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2617" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-3.1.1.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,42 +96,8 @@
         <entry file="file://$PROJECT_DIR$/ninicast/templates/itssafe.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="56" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-              <folding>
-                <element signature="e#642#674#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itsnormal/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-              <folding>
-                <element signature="e#24#56#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -162,13 +120,10 @@
         <option value="$PROJECT_DIR$/itssafe/admin.py" />
         <option value="$PROJECT_DIR$/itsnormal/apps.py" />
         <option value="$PROJECT_DIR$/itsnormal/static/css/mdb.css" />
-        <option value="$PROJECT_DIR$/itsnormal/static/css/style.css" />
         <option value="$PROJECT_DIR$/itssafe/views.py" />
         <option value="$PROJECT_DIR$/itsnormal/static/css/rtl.css" />
         <option value="$PROJECT_DIR$/itsnormal/static/css/compiled.min.css" />
-        <option value="$PROJECT_DIR$/itsnormal/static/css/combined.css" />
         <option value="$PROJECT_DIR$/itsnormal/static/js/mobile-nav.min.js" />
-        <option value="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js" />
         <option value="$PROJECT_DIR$/itsnormal/views.py" />
         <option value="$PROJECT_DIR$/ninicast/views.py" />
         <option value="$PROJECT_DIR$/ninicast/templates/itsnormal.html" />
@@ -178,10 +133,16 @@
         <option value="$PROJECT_DIR$/itsnormal/urls.py" />
         <option value="$PROJECT_DIR$/itssafe/models.py" />
         <option value="$PROJECT_DIR$/itsnormal/models.py" />
-        <option value="$PROJECT_DIR$/ninicast/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/itssafe.html" />
-        <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/post.html" />
+        <option value="$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js" />
+        <option value="$PROJECT_DIR$/itsnormal/static/css/combined.css" />
+        <option value="$PROJECT_DIR$/itsnormal/static/css/style.css" />
+        <option value="$PROJECT_DIR$/itsnormal/static/css/post.css" />
+        <option value="$PROJECT_DIR$/itsnormal/static/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
+        <option value="$PROJECT_DIR$/ninicast/templates/maqalat.html" />
+        <option value="$PROJECT_DIR$/ninicast/templates/mainpage.html" />
       </list>
     </option>
   </component>
@@ -278,39 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ninicast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ninicast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ninicast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ninicast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itssafe" />
+              <option name="myItemId" value="itsnormal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,11 +254,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/itsnormal/static/css" />
       <recent name="$PROJECT_DIR$/thumb/media/images/itssafe" />
       <recent name="$PROJECT_DIR$/thumb/media/images/itsnormal" />
       <recent name="$PROJECT_DIR$/media/images" />
       <recent name="$PROJECT_DIR$/ninicast/media/images/itssafe" />
-      <recent name="$PROJECT_DIR$/ninicast/media/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ninicast/templates" />
@@ -578,27 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itssafe/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="135" column="20" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/settings.py.sample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itssafe/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itssafe/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -794,26 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="6" column="483" selection-start-line="6" selection-start-column="483" selection-end-line="6" selection-end-column="483" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itsnormal/static/js/mobile-nav.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="483" selection-start-line="2" selection-start-column="483" selection-end-line="2" selection-end-column="483" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/combined.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24528">
-          <caret line="1022" column="17" selection-start-line="1022" selection-start-column="1" selection-end-line="1022" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,14 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1272">
           <caret line="53" column="5077" selection-start-line="53" selection-start-column="5077" selection-end-line="53" selection-end-column="5077" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -868,7 +752,7 @@
         <state relative-caret-position="-360">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#15#50#0" expanded="true" />
+            <element signature="e#15#50#0" expanded="false" />
             <element signature="e#1925#1977#0" expanded="false" />
             <element signature="e#2014#2182#0" expanded="false" />
           </folding>
@@ -888,7 +772,7 @@
         <state relative-caret-position="216">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding>
-            <element signature="e#24#56#0" expanded="true" />
+            <element signature="e#24#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,16 +782,6 @@
         <state relative-caret-position="192">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,47 +803,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/templates/itssafe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itssafe/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/ninicast/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#642#674#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/templates/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        <state relative-caret-position="526">
+          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/post.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="1075" column="0" selection-start-line="1075" selection-start-column="0" selection-end-line="1084" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/combined.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3523" column="1" selection-start-line="3523" selection-start-column="1" selection-end-line="3523" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2617" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/css/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="1" column="2617" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="2617" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itsnormal/static/js/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/itssafe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/maqalat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="122" column="15" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

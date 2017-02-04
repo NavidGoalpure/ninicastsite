@@ -8,7 +8,6 @@
             <img width="750" src="{{post.image.url}}" class="attachment-detail-image size-detail-image wp-post-image"
                  alt="{{post.titr}}" title="{{post.titr}}">
         </div>
-
         {% if post.audio.url != null %}
         <audio controls="controls" style="width:100%; margin:-7px 0px" preload="none" autoplay><!---->
             <source src="{{post.audio.url}}" type="audio/mpeg">
@@ -37,17 +36,11 @@
             <div class="pagelink"></div>
             <div class="posttags">گروه بندی: <a href="{{catagoryCode}}" rel="tag"> {{catagoryName}}</a></div>
             <div class="clear"></div>
-
-
             <!-- If comments are open, but there are no comments. -->
-
-
-
 
         </div>
         <!-- stat Comment -- >
         <div id="comment-form">
-
             <h2>دیدگاه شما چیست؟</h2>
             <div id="respond" class="comment-respond">
                 <form action="#" method="post" id="commentform" class="comment-form">
@@ -103,9 +96,7 @@
             <h3><a href="{{samePost3.id}}" >{{samePost3.titr}}</a></h3>
             <div>{{samePost1.desc | truncatechars:150}}</div>
         </div>
-
     </div>
-
 </div>
 
 

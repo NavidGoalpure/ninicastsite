@@ -1,15 +1,9 @@
-
-
 {% extends 'base.html' %}
 {% block content %}
     {% for item in items %}
             {% cycle '<div class ="row">' '' '' '' %}
             <div  class="col-lg-3 col-md-6 mb-r" >
-
-                <!--Card-->
                 <div  class="card card-cascade narrower" >
-
-                    <!--Card image-->
                     <div class="view overlay hm-white-slight">
                         {% if forloop.counter0 < 7 %}
                          <a  class="podcasticon" href="itssafe/{{item.id}}" title="{{item.titr}}">
@@ -20,7 +14,6 @@
                             <img  src="{{item.thumbUrl}}" class="img-fluid" alt="{{item.titr}}">
                         </a>
                         {% endif %}
-
                     </div>
                     <!--/.Card Category-->
                     <div class="pinbin-category">
@@ -33,14 +26,8 @@
 
                       </p>
                   </div>
-                    <!--/.Card image-->
-
-                    <!--Card content-->
                     <div class="card-block text-xs-center">
-                        <!--Category & Title-->
                         <h4  class="card-title"><strong><a> {{item.titr}}</a></strong></h4>
-
-                        <!--Rating-->
                         <ul class="rating">
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
@@ -48,12 +35,8 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star-o"></i></li>
                         </ul>
-
-                        <!--Description-->
                         <p class="card-text">{{item.desc | truncatechars:300}}
                         </p>
-
-                        <!--Card footer-->
                         <div class="card-footer">
                             <span class="left">
                                 {% if forloop.counter0 < 7 %}
@@ -68,22 +51,14 @@
                                 <a class="active" data-toggle="tooltip" data-placement="top" title="نظرات"><i class="fa fa-comment"></i></a>
                             </span>
                         </div>
-
                     </div>
-                    <!--/.Card content-->
-
                 </div>
-                <!--/.Card-->
-
             </div>
     {% cycle '' '' '' '</div>' %}
-
     {% endfor %}
-
 {% if mod4 > 0 %}
 </div>
 {% endif %}
-
 <div style="clear:both"></div>
         <!--/First row-->
     <!--/Section: Products v.1-->
