@@ -1,4 +1,19 @@
 {% extends 'base.html' %}
+{% block seoTags %}
+<title>نی نی کست: نجوای سلامت کودک</title>
+    <meta name="description" content="پادکست سلامت کودکان، مطالب صوتی در حوزه بارداری،‌بچه داری،‌نومادران " />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="نی نی کست"/>
+    <meta property="og:url" content="http://ninicast.ir/"/>
+    <meta property="og:description" content="پادکست سلامت کودکان، مطالب صوتی در حوزه بارداری،‌بچه داری،‌نومادران " />
+    <link rel="canonical" href="http://ninicast.ir/" />
+    <meta http-equiv="refresh" content="900">
+    <link rel="start" href="http://ninicast.ir/" />
+    <link rel="sitemap" href="http://ninicast.ir/sitemap.xml" />
+    <link rel="alternate" type="application/rss+xml" title="پیگیری نی نی کست" href="http://http://www.ninicast.ir/itssafe/latest/feedl" />
+    <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}/images/favicon.ico"/>
+{% endblock %}
+
 {% block content %}
     {% for item in items %}
             {% cycle '<div class ="row">' '' '' '' %}
