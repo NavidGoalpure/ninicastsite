@@ -1,5 +1,13 @@
 {% extends 'base.html' %}
-{% load static%}
+
+{% block seoTags %}
+    <title>نی نی کست- سوال-{{item.titr}}</title>
+        <meta name="description" content="جواب-{{item.titr}}" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="{{item.titr}}"/>
+        <meta property="og:image" content="{{item.image.url}}"/>
+        {{ block.super }}
+{% endblock %}
 {% block content %}
 <div class="post-page">
     <div id="post-26"

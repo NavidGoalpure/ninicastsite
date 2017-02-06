@@ -1,11 +1,6 @@
 {% extends 'base.html' %}
 {% block seoTags %}
-<title>نی نی کست- سوال-{{item.titr}}</title>
-    <meta name="description" content="جواب-{{item.titr}}" />
-    <meta property="og:type" content="article"/>
-    <meta property="og:title" content="{{item.titr}}"/>
-    <meta property="og:image" content="{{item.image.url}}"/>
-{% endblock %}
+
 {% block content %}
 
     {% for item in items %}

@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block seoTags %}
+
 <title>نی نی کست: نجوای سلامت کودک</title>
     <meta name="description" content="پادکست سلامت کودکان، مطالب صوتی در حوزه بارداری،‌بچه داری،‌نومادران " />
     <meta property="og:type" content="website"/>
@@ -11,7 +12,7 @@
     <link rel="start" href="http://ninicast.ir/" />
     <link rel="sitemap" href="http://ninicast.ir/sitemap.xml" />
     <link rel="alternate" type="application/rss+xml" title="پیگیری نی نی کست" href="http://http://www.ninicast.ir/itssafe/latest/feedl" />
-    <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}/images/favicon.ico"/>
+{{ block.super }}
 {% endblock %}
 
 {% block content %}
