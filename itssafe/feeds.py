@@ -8,7 +8,7 @@ class LatestItssafeFeed(Feed):
     description = "آپدیت و اضافه کردن مطالب جدید در ارتباط با سلامت مادران باردار"
 
     def items(self):
-        return itssafePosts.objects.order_by('publication_date')[:5]  
+        return itssafePosts.objects.order_by('publication_date')[:5]
 
     def item_title(self, item):
         return item.titr
