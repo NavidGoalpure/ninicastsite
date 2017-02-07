@@ -19,6 +19,8 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib import sitemaps
 from django.contrib.sitemaps.views import sitemap
+
+from ninicast.feeds import LatestSitesFeed
 from . import views
 from views import ItsSafeSitemap
 from views import mainPagesSitemap
@@ -37,8 +39,12 @@ urlpatterns = [
                   url(r'^itsnormal/', include('itsnormal.urls', namespace='itsnormal')),
                   url(r'^itssafe/', include('itssafe.urls', namespace='itssafe')),
                   url(r'^$',views.hello , name = 'mainpage'),
-                    #for googleWebmasterTools
+                 #for googleWebmasterTools
                   url(r'^googleab93e03628178ac3\.html$',views.googleWebmasterToolLink ),
+                 # feeds urls
+                  url(r'^latest/(?P<id>[0-9]{1,3})$', views.showFeedPost, name='showpost'),
+                  url(r'^latest/feed/$', LatestSitesFeed()),
+                  #
                   url(r'^sitemap\.xml$', mapviews.index, {'sitemaps': sitemaps}),
                   url(r'^sitemap-(?P<section>.+)\.xml$', mapviews.sitemap, {'sitemaps': sitemaps},
                       name='django.contrib.sitemaps.views.sitemap'),
