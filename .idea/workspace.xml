@@ -36,8 +36,8 @@
       <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ninicast/templates/mainpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="51" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="336">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -84,8 +84,8 @@
         <option value="$PROJECT_DIR$/ninicast/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/post.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/base.html" />
-        <option value="$PROJECT_DIR$/ninicast/templates/itssafe.html" />
         <option value="$PROJECT_DIR$/ninicast/templates/itsnormal.html" />
+        <option value="$PROJECT_DIR$/ninicast/templates/itssafe.html" />
       </list>
     </option>
   </component>
@@ -759,26 +759,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/templates/itsnormal.html">
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/itssafe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninicast/templates/itssafe.html">
+    <entry file="file://$PROJECT_DIR$/ninicast/templates/itsnormal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="168">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ninicast/templates/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="51" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="336">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
