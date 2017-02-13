@@ -5,6 +5,8 @@ from django.db import models
 from django.core.urlresolvers import reverse
 from django.contrib.sitemaps import ping_google
 from PIL import Image
+import PIL
+
 class itssafeCategories(models.Model):
     categoryName = models.CharField(max_length=30)
     categoryID = models.PositiveSmallIntegerField(unique=True,)

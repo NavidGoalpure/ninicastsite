@@ -2,17 +2,10 @@
 from __future__ import unicode_literals
 
 import PIL
-import os
-from urllib import urlopen
-
 from django.db import models
 from django.core.urlresolvers import reverse
 from django.contrib.sitemaps import ping_google
 from PIL import Image
-from django.core.files import File
-from django.core.files.temp import NamedTemporaryFile
-
-
 
 class itsNormalCategories(models.Model):
     categoryName = models.CharField(max_length=30)
