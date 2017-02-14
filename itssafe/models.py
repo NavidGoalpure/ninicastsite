@@ -27,7 +27,7 @@ class itssafePosts(models.Model):
 
     publication_date = models.DateTimeField(auto_now = True)
     image = models.ImageField(upload_to='images/itssafe/',
-                                  default='images/itssafe/8.png')
+                                  blank= True)
 
     thumbUrl = models.CharField(max_length=100,blank=True)
 

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsnormal/models.py" afterPath="$PROJECT_DIR$/itsnormal/models.py" />
+    <list default="true" id="324b2549-f124-49fa-89a3-b06cde402c99" name="Default" comment="change footer desc">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/audio/itssafe/64_V0cq8hX.mp3" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/39.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/39.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/41.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/41.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/44.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/44.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/56.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/56.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/6.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/6.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/60.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/60.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/61.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/61.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/audio/itssafe/67.mp3" afterPath="$PROJECT_DIR$/media/audio/itssafe/67.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itssafe/models.py" afterPath="$PROJECT_DIR$/itssafe/models.py" />
     </list>
     <ignored path="ninicast.iws" />
@@ -36,8 +45,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/itssafe/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="-408">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
                 <element signature="e#264#434#0" expanded="false" />
@@ -452,12 +461,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="65" width="1856" height="1015" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6251403" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -506,13 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itsnormal/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itsnormal/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -786,10 +788,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/itssafe/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="-408">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
             <element signature="e#264#434#0" expanded="false" />
