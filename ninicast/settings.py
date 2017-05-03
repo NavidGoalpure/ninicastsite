@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'yp+#&-8^q9g*&hx#q_b%+b3v1l5y#v6ad3f3&jbaiicm_^_=!v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['ninicast.ir', '127.0.0.1','www.ninicast.ir','ninicast.com' ,'www.ninicast.com']
+ALLOWED_HOSTS = ['ninicast.ir', '46.4.239.221','www.ninicast.ir','ninicast.com' ,'www.ninicast.com']
 
 
 # Application definition
@@ -149,7 +149,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join('static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticroot/')
+STATICFILES_DIRS = (os.path.join('itsnormal/static'),)
 
 MEDIA_ROOT = os.path.join('media')
 MEDIA_URL = '/media/'

@@ -1,14 +1,15 @@
-.installed.cfg
-bin
-develop-eggs
-dist
-downloads
-eggs
-parts
-src/*.egg-info
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+.env
+.venv
+db.sqlite3
 lib
-lib64
+ib64
 db.sqlite3
 ninicast/setting.py
-*.pyc
 .idea/.
+.git
+media/*
